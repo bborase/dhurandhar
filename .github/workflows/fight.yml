@@ -8,4 +8,4 @@ jobs :
     runs-on : ubuntu-latest
     steps :
         - name : say hello
-          run :  echo "Hello world from hello.yml"  #comment added
+          run :  read name ; echo "Hello world from $name"  #comment added
