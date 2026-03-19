@@ -7,8 +7,8 @@ on :
         inputs :
             name :
                 description : 'Your name'
-                required : false
-                #default : 'User'
+                required : true
+                default : 'User'
 jobs :
   hello :
     runs-on : ubuntu-latest
